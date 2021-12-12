@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MainActivity">
-/
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="100dp"
@@ -28,13 +29,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text123"
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/logo"></ImageButton>
+            <ListView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="15sp" />
-
-
+                android:layout_height="match_parent"></ListView>
         </LinearLayout>
     </ScrollView>
 
